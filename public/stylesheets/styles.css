@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Museo700';
+  src: url('../font/Museo700-Regular.eot');
+  src: url('../font/Museo700-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../font/Museo700-Regular.woff') format('woff'),
+  url('../font/Museo700-Regular.ttf') format('truetype'),
+  url('../font/Museo700-Regular.svg#Museo 700 Regular') format('svg');
+}
+
+body {
+  font-family: Verdana,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Museo700,Verdana,sans-serif;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: normal;
+  font-size: 13px;
+}
